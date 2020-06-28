@@ -21,6 +21,6 @@ def print_snapshot(mylist):
     #pass
 
 print_snapshot(distance_traveled)
-drawText('traveled', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3)+30)
+Text('traveled', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3)+30)
 
 #print("traveled")
