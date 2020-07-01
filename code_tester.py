@@ -1,9 +1,9 @@
 #create an introduction to the game. and ask what car number the user would like to choose.
 
 
-print("Welcome to my car game! :) simp")
+print("kia ora\nwelcome to my car game! :) peasant")
 print("_______________________")
-level = input('which level would you like to play, easy or difficult?')
+#level = input('which level would you like to play, easy or difficult?')
 def carcheck (question, min, max):
     #def = define
     # intcheck is the name of my fucntion in python
@@ -18,9 +18,9 @@ def carcheck (question, min, max):
                 # I am happy with the loop
                 break
             else: #the number is out of bounds
-                print("Please enter a valid car number\nsimp! \nBetween 1 and 12")
+                print("oi!\npeasant, do what you are told and enter a number between 1 and 12")
                 continue
         except ValueError:
-            print("Please enter a valid number\nPeasant! This must be a number, please try again")
+            print("oi!\npeasant, do what you are told and enter a valid car number\nbetween 1 and 12")
 #run function - call
 carcheck("Choose a car number... (1-12)? ", 1 , 12)
