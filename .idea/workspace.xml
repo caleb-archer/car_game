@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78a31c88-ef6a-45db-9e8d-72f29148392d" name="Default Changelist" comment="new" />
+    <list default="true" id="78a31c88-ef6a-45db-9e8d-72f29148392d" name="Default Changelist" comment="new">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code_tester.py" beforeDir="false" afterPath="$PROJECT_DIR$/intro_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +55,7 @@
       <recent name="C:\Users\c.j.archer\OneDrive - Saint Kentigern\School Subjects 2020\Digital Tech\1.7 Internal\CarGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.code_tester">
+  <component name="RunManager" selected="Python.intro_test">
     <configuration name="cargame_v1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CarGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +98,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="code_tester" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="intro_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CarGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +110,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code_tester.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\c.j.archer\OneDrive - Saint Kentigern\School Subjects 2020\Digital Tech\1.7 Internal\car_game_new\car_game\intro_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +121,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.code_tester" />
+        <item itemvalue="Python.intro_test" />
         <item itemvalue="Python.cargame_v1 (1)" />
         <item itemvalue="Python.cargame_v1" />
       </list>
@@ -142,7 +145,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new" />
     <MESSAGE value="code tester mod" />
-    <option name="LAST_COMMIT_MESSAGE" value="code tester mod" />
+    <MESSAGE value="new update 02/07" />
+    <option name="LAST_COMMIT_MESSAGE" value="new update 02/07" />
   </component>
   <component name="WindowStateProjectService">
     <state x="220" y="167" key="FileChooserDialogImpl" timestamp="1593141061762">
