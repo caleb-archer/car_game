@@ -24,3 +24,25 @@ def carcheck (question, min, max):
             print("oi!\npeasant, do what you are told and enter a valid car number\nbetween 1 and 12")
 #run function - call
 carcheck("Choose a car number... (1-12)? ", 1 , 12)
+print("\n_______________________")
+#CHOSE RACE DISTANCE
+def discheck (question, min, max):
+    #def = define
+    # intcheck is the name of my fucntion in python
+    # question - will be the question asked to the user
+    # low and high boundaries will be set up by the progarmmer
+    valid = False
+    while not valid:
+        try: #try to convet input to interger
+            race_distance = int(input(question))
+            if min<= race_distance<=max:
+                print('Your race distance is', race_distance, '\nGood Luck peasant')
+                # I am happy with the loop
+                break
+            else: #the number is out of bounds
+                print("oi!\npeasant, do what you are told and enter a race distance between 5 and 15")
+                continue
+        except ValueError:
+            print("oi!\npeasant, do what you are told and enter a valid race distance\nbetween 5 and 15")
+#run function - call
+discheck("Choose a race distance... (5-15)? ", 5 , 15)
