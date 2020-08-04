@@ -1,3 +1,10 @@
+import random
+cars = ['bob', 'ancarr', 'carcar', 'dave', 'nocarcar','teslacar' ]
+add_car = random.choice(cars)
+
+print(add_car)
+
+
 #have the user chose a race distance
 print('Welcome to the race!')
 
@@ -21,6 +28,8 @@ def print_snapshot(mylist):
     #pass
 
 print_snapshot(distance_traveled)
-Text('traveled', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3)+30)
+#Text('traveled', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3)+30)
 
 #print("traveled")
+
+

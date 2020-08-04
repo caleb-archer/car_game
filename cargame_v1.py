@@ -1,5 +1,5 @@
 '''
-Create a race car game with 6 cars
+Create a race car game with 12 cars
 Users chose a car to race with
 Users enter a race distance
 
