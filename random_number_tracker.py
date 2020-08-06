@@ -12,23 +12,27 @@ distance_traveled = [0,0,0,0,0,0,0,0,0,0,0,0]
 
 # to add 1 to position 3
 #distance_traveled[add_car] +=1
-print(distance_traveled)
+#print(distance_traveled)
 
-add_car=""
+#add_car=""
 valid = False
 while not valid:
     #chose a random number from cars list
     add_car = random.choice(cars)
-    print(add_car)
+    #print(add_car)
     distance_traveled[add_car-1] += 1
 
-    if 15 > distance_traveled:
-        print("yay")
-
+    if distance_traveled[add_car-1] == 15:
+        #print("yay")
+        #print(add_car)
         break
 
+    else:
+        continue
 
-print(distance_traveled)
+
+#print(distance_traveled)
+#check who has won
 
 
 def print_snapshot(mylist):
@@ -39,3 +43,5 @@ def print_snapshot(mylist):
     #pass
 
 print_snapshot(distance_traveled)
+
+print("the winner is car {}" .format(add_car))
