@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78a31c88-ef6a-45db-9e8d-72f29148392d" name="Default Changelist" comment="new">
-      <change afterPath="$PROJECT_DIR$/tracking_v1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tracking_v3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_number_tracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cargame_v2.py" beforeDir="false" afterPath="$PROJECT_DIR$/cargame_v2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +59,8 @@
       <recent name="C:\Users\c.j.archer\OneDrive - Saint Kentigern\School Subjects 2020\Digital Tech\1.7 Internal\CarGame" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tracking_v3">
-    <configuration name="cargame_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.cargame_v2">
+    <configuration name="cargame_v2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CarGame" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -75,7 +72,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cargame_v1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cargame_v2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,14 +167,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cargame_v2" />
         <item itemvalue="Python.tracking_v3" />
         <item itemvalue="Python.tracking_v1" />
         <item itemvalue="Python.tracking_v2 (1)" />
         <item itemvalue="Python.tracking_v2" />
-        <item itemvalue="Python.cargame_v1" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -201,9 +199,14 @@
     <MESSAGE value="update for anca" />
     <MESSAGE value="update" />
     <MESSAGE value="hi anca :-)" />
-    <option name="LAST_COMMIT_MESSAGE" value="hi anca :-)" />
+    <MESSAGE value="update - tracking 3 is working now - will probs use this for final" />
+    <option name="LAST_COMMIT_MESSAGE" value="update - tracking 3 is working now - will probs use this for final" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="53" key="#Plugins" timestamp="1597009028060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1597009028060" />
     <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1597007754897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -213,33 +216,33 @@
     </state>
     <state x="220" y="167" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1680.1010@0.0.1536.824" timestamp="1593141061762" />
     <state x="220" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596151655206" />
-    <state width="1515" height="222" key="GridCell.Tab.0.bottom" timestamp="1597008087474">
+    <state width="1515" height="222" key="GridCell.Tab.0.bottom" timestamp="1597012034077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597008087474" />
-    <state width="1515" height="222" key="GridCell.Tab.0.center" timestamp="1597008087474">
+    <state width="1515" height="222" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597012034077" />
+    <state width="1515" height="222" key="GridCell.Tab.0.center" timestamp="1597012034077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597008087474" />
-    <state width="1515" height="222" key="GridCell.Tab.0.left" timestamp="1597008087474">
+    <state width="1515" height="222" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597012034077" />
+    <state width="1515" height="222" key="GridCell.Tab.0.left" timestamp="1597012034077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597008087474" />
-    <state width="1515" height="222" key="GridCell.Tab.0.right" timestamp="1597008087474">
+    <state width="1515" height="222" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597012034077" />
+    <state width="1515" height="222" key="GridCell.Tab.0.right" timestamp="1597012034077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597008087474" />
+    <state width="1515" height="222" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597012034077" />
     <state x="277" y="57" key="SettingsEditor" timestamp="1593648999703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593648999703" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1596749629045">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1597008806048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596749629045" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1596749305546">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1597008806048" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1597010048516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1596749305546" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1597010048516" />
   </component>
 </project>

@@ -138,6 +138,44 @@ def print_snapshot(mylist):
 #print_snapshot(distance_traveled)
 
 
+#----- 2nd place winner -----
+#place_2nd=""
+valid = False
+while not valid:
+    #chose a random number from cars list
+    place_2nd = random.choice(cars)
+    #print(add_car)
+    distance_traveled[place_2nd-1] += 1
+
+    if distance_traveled[place_2nd-1] == 15:
+        #print("yay")
+        #print(add_car)
+        if place_2nd==place_1st:
+            continue
+        break
+    else:
+        continue
+
+#----- 3rd place winner -----
+#place_3rd=""
+valid = False
+while not valid:
+    #chose a random number from cars list
+    place_3rd = random.choice(cars)
+    #print(add_car)
+    distance_traveled[place_3rd-1] += 1
+
+    if distance_traveled[place_3rd-1] == 15:
+        #print("yay")
+        #print(add_car)
+        if place_3rd==place_1st:
+            continue
+        if place_3rd==place_2nd:
+            continue
+        break
+    else:
+        continue
+
 #---- time delay -----
 
 print("please wait peasant, the race is in progress")
@@ -149,6 +187,29 @@ for i in range(race_distance):
 print("\n \n")
 print_snapshot(distance_traveled)
 print("\n_______________________")
+print('you chose car {}' .format(user_car))
 print("the winner is car {}" .format(place_1st))
+print("the 2nd place car is {}" .format(place_2nd))
+print("the 3rd place car is {}" .format(place_3rd))
+
+#---- did the user place or win? -----
+print("\n_______________________")
+
+valid = False
+while not valid:
+    if user_car == place_1st:
+        print("Congtarulations, you won the race")
+        break
+    elif user_car == place_2nd:
+        print("Nice Try, you got second place in the race")
+        break
+    elif user_car == place_3rd:
+        print("Well done, you got third place in the race")
+        break
+
+    else:
+        print("Sorry, You didn't score in the race")
+        break
 
 
+print("END")
