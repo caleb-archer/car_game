@@ -17,6 +17,9 @@ import sys
 MAX_CARS = 12
 MIN_CARS = 1
 
+MIN_DIS =5
+MAX_DIS = 15
+
 #----- INTRODUCTION -----
 print("kia ora\nwelcome to my car game! :) peasant")
 print("\n_______________________")
@@ -38,12 +41,12 @@ def carcheck (question, min, max):
                 # I am happy with the loop
                 break
             else: #the number is out of bounds
-                print("oi!\npeasant, do what you are told and enter a number between", min, "and", max)
+                print("oi!\npeasant, do what you are told and please enter a car number between", min, "and", max, "\n")
                 continue
         except ValueError:
-            print("oi!\npeasant, do what you are told and enter a valid car number\nbetween", min, "and", max)
+            print("oi!\npeasant, do what you are told and enter a valid car number\nbetween", min, "and", max, "\n")
 #run function - call
-carcheck("Choose a car number...? ", MIN_CARS , MAX_CARS)
+carcheck("Choose a car number (between {} - {}) ".format(MIN_CARS, MAX_CARS), MIN_CARS , MAX_CARS)
 
 
 print("\n_______________________")
@@ -64,13 +67,13 @@ def discheck (question, min, max):
                 # I am happy with the loop
                 break
             else: #the number is out of bounds
-                print("oi!\npeasant, do what you are told and enter a race distance between 5 and 15")
+                print("oi!\npeasant, do what you are told and enter a race distance between", min, "and", max, "\n")
                 continue
         except ValueError:
-            print("oi!\npeasant, do what you are told and enter a valid race distance\nbetween 5 and 15")
+            print("oi!\npeasant, do what you are told and enter a valid race distance\nbetween", min, "and", max, "\n")
         return race_distance
 #run function - call
-discheck("Choose a race distance... (5-15)? ", 5 , 15)
+discheck("Choose a race distance(between {} - {}) ".format(MIN_DIS, MAX_DIS), MIN_DIS, MAX_DIS)
 #race_distance: int=(int(discheck()))
 
 
@@ -213,3 +216,4 @@ while not valid:
 
 
 print("END")
+
