@@ -1,7 +1,8 @@
 import time
 import sys
 
-
+restart = True
+while restart:
 
     print("hello, how are you today")
 
@@ -19,10 +20,6 @@ import sys
        # time.sleep(4)
         #x += x
 
-restart = True
-while restart:
-
-#code in here
 
     restart = input("Press any key to restart or q to quit!")
     if restart == "q":

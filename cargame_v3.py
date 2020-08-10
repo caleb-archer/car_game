@@ -17,7 +17,7 @@ import sys
 MAX_CARS = 12
 MIN_CARS = 1
 
-MIN_DIS =5
+MIN_DIS = 5
 MAX_DIS = 15
 
 #----- INTRODUCTION -----
