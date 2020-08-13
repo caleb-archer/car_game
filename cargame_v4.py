@@ -8,7 +8,7 @@ Create a car racer game:
     - this will be displayed in a list using '*' to indicate each position
     - there will be a sleep function that will act as a delay to imitate that the race is actually happening
     - there will be a function to check if the users car got first, second or third place
-- the user will then have the option to chose if they want to repeat the race
+- the user will then have the option to chose if they want to restart the entire game
 '''
 import random
 import time
@@ -43,13 +43,16 @@ while restart:
                 user_car = int(input(question))
                 if min<= user_car<=max:
                     print('Yay you chose car', user_car)
+                    time.sleep(2)
                     # I am happy with the loop
                     break
                 else: #the number is out of bounds
                     print("oi!\npeasant, do what you are told and please enter a car number between", min, "and", max, "\n")
+                    time.sleep(2)
                     continue
             except ValueError:
                 print("oi!\npeasant, do what you are told and enter a valid car number\nbetween", min, "and", max, "\n")
+                time.sleep(2)
     #run function - call
     carcheck("Choose a car number (between {} - {}) ".format(MIN_CARS, MAX_CARS), MIN_CARS , MAX_CARS)
 
@@ -69,14 +72,16 @@ while restart:
                 race_distance = int(input(question))
                 if min<= race_distance<=max:
                     print('Your race distance is', race_distance, '\nGood Luck peasant')
+                    time.sleep(2)
                     # I am happy with the loop
                     break
                 else: #the number is out of bounds
                     print("oi!\npeasant, do what you are told and enter a race distance between", min, "and", max, "\n")
+                    time.sleep(2)
                     continue
             except ValueError:
                 print("oi!\npeasant, do what you are told and enter a valid race distance\nbetween", min, "and", max, "\n")
-            return race_distance
+                time.sleep(2)
     #run function - call
     discheck("Choose a race distance(between {} - {}) ".format(MIN_DIS, MAX_DIS), MIN_DIS, MAX_DIS)
     #race_distance: int=(int(discheck()))
@@ -97,10 +102,12 @@ while restart:
             yes_no = (input(question))
             if yes_no == "yes":
                     print('Ok, lets start')
+                    time.sleep(2.5)
                     # I am happy with the loop
                     break
             else: #the number is out of bounds
                     print("Please enter 'yes' when you want to start, my bro")
+                    time.sleep(1)
                     continue
     start_race("Would you like to start? ")
 
@@ -187,7 +194,7 @@ while restart:
     #---- time delay -----
 
     print("please wait peasant, the race is in progress")
-    for i in range(race_distance):
+    for i in range(race_distance*2):
         sys.stdout.write(".")
         time.sleep(0.3)
 
@@ -196,9 +203,13 @@ while restart:
     print_snapshot(distance_traveled)
     print("\n_______________________")
     print('you chose car {}' .format(user_car))
+    time.sleep(1)
     print("the winner is car {}" .format(place_1st))
+    time.sleep(1)
     print("the 2nd place car is {}" .format(place_2nd))
+    time.sleep(1)
     print("the 3rd place car is {}" .format(place_3rd))
+
 
     #---- did the user place or win? -----
     print("\n_______________________")
@@ -206,26 +217,25 @@ while restart:
     valid = False
     while not valid:
         if user_car == place_1st:
-            print("Congtarulations, you won the race")
+            print("Congratulations, you won the race")
+            time.sleep(2)
             break
         elif user_car == place_2nd:
             print("Nice Try, you got second place in the race")
+            time.sleep(2)
             break
         elif user_car == place_3rd:
             print("Well done, you got third place in the race")
+            time.sleep(2)
             break
-
         else:
             print("Sorry, You didn't score in the race")
+            time.sleep(2)
             break
-
-
-    print("END")
-
 
 
 #---- option for player to restart [loop] -----
     print("\n_______________________")
-    restart = input("Press any key to restart or q to quit!")
+    restart = input("Press any key to restart or q to quit! ")
     if restart == "q":
         restart = False
