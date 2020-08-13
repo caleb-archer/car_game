@@ -11,6 +11,7 @@ Create a car racer game:
 - the user will then have the option to chose if they want to restart the entire game
 
 Version information:
+- as in previous versions, this version has a function that will produce a first, second and third place winner
 - this version has a loop function called restart
     - the loop runs over the last part of the game
     - the user keeps the race distance and the car number from their original selection

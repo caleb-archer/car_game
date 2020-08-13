@@ -11,6 +11,7 @@ Create a car racer game:
 - the user will then have the option to chose if they want to repeat the race
 
 Version information:
+- this version has a function that will produce a first, second and third place winner
 - this version also has a function called start
     - it asks the user if they want to start the race
 '''

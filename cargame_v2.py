@@ -9,6 +9,10 @@ Create a car racer game:
     - there will be a sleep function that will act as a delay to imitate that the race is actually happening
     - there will be a function to check if the users car got first, second or third place
 - the user will then have the option to chose if they want to repeat the race
+
+Version information:
+- this version has a very basic function to produce a winner of the race
+    - it will only say who got first place in the race
 '''
 import random
 import time
@@ -75,26 +79,6 @@ discheck("Choose a race distance... (5-15)? ", 5 , 15)
 
 
 
-
-print("\n_______________________")
-
-#----- user choice - is the user ready to start the race? -----
-def start_race (question):
-    #def = define
-    # levelcheck is the name of my fucntion in python
-    # question - will be the question asked to the user
-    # low and high boundaries will be set up by the progarmmer
-    valid = False
-    while not valid:
-        yes_no = (input(question))
-        if yes_no == "yes":
-                print('Ok, lets start')
-                # I am happy with the loop
-                break
-        else: #the number is out of bounds
-                print("Please enter 'yes' when you want to start, my bro")
-                continue
-start_race("Would you like to start? ")
 
 print("\n_______________________")
 
