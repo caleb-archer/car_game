@@ -9,6 +9,12 @@ Create a car racer game:
     - there will be a sleep function that will act as a delay to imitate that the race is actually happening
     - there will be a function to check if the users car got first, second or third place
 - the user will then have the option to chose if they want to restart the entire game
+
+Version information:
+- this version has a loop function called restart
+    - the loop runs over the whole game
+- this version also has a function called start
+    - it asks the user if they want to start the race
 '''
 import random
 import time
