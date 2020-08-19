@@ -206,17 +206,20 @@ print("\n_______________________")
 valid = False
 while not valid:
     if user_car == place_1st:
-        print("Congtarulations, you won the race")
+        print("Congratulations, you won the race!")
+        time.sleep(2)
         break
     elif user_car == place_2nd:
-        print("Nice Try, you got second place in the race")
+        print("well done, you got second place in the race")
+        time.sleep(2)
         break
     elif user_car == place_3rd:
-        print("Well done, you got third place in the race")
+        print("nice try, you got third place in the race")
+        time.sleep(2)
         break
-
     else:
-        print("Sorry, You didn't score in the race")
+        print("sorry peasant, you didn't score in the race")
+        time.sleep(2)
         break
 
 

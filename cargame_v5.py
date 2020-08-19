@@ -225,25 +225,25 @@ while restart:
     valid = False
     while not valid:
         if user_car == place_1st:
-            print("Congratulations, you won the race")
+            print("Congratulations, you won the race!")
             time.sleep(2)
             break
         elif user_car == place_2nd:
-            print("Well Done, you got second place in the race")
+            print("well done, you got second place in the race")
             time.sleep(2)
             break
         elif user_car == place_3rd:
-            print("Nice Try, you got third place in the race")
+            print("nice try, you got third place in the race")
             time.sleep(2)
             break
         else:
-            print("Sorry, You didn't score in the race")
+            print("sorry peasant, you didn't score in the race")
             time.sleep(2)
             break
 
 
 #---- option for player to restart [loop] -----
     print("\n_______________________")
-    restart = input("Press any key to restart the race or q to quit! ")
+    restart = input("press any key to restart the race or q to quit! ")
     if restart == "q":
         restart = False
