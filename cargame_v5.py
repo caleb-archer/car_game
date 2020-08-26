@@ -1,14 +1,14 @@
 '''
 Create a car racer game:
-- where the user will chose their car number (from 1 - 12)
-- where the user will chose the race distance (from 5 -15)
+- where the user will choose their car number (from 1 - 12)
+- where the user will choose the race distance (from 5 -15)
 - where the user will then be asked if they want to start the race
 - the game will then use these values to produce a output and a first, second and third place winner
     - this will be obtained by using a random number generator to decide which car moves forwards each time
-    - this will be displayed in a list using '*' to indicate each position
+    - this will be displayed in a list using '✱' to indicate each position
     - there will be a sleep function that will act as a delay to imitate that the race is actually happening
     - there will be a function to check if the users car got first, second or third place
-- the user will then have the option to chose if they want to restart the entire game
+- the user will then have the option to choose if they want to restart the entire game
 
 Version information:
 - as in previous versions, this version has a function that will produce a first, second and third place winner
@@ -124,6 +124,7 @@ while restart:
     #----- START RACE -----
     cars = [1,2,3,4,5,6,7,8,9,10,11,12]
     distance_traveled = [0,0,0,0,0,0,0,0,0,0,0,0]
+
     #keep track of distances travled
 
 
@@ -154,7 +155,7 @@ while restart:
     def print_snapshot(mylist):
         counter=1
         for car_distance in mylist:
-            print('car {} has moved \n'.format(counter)+"*"*car_distance)
+            print('car {} has moved \n'.format(counter)+""*car_distance)
             counter+= 1
         #pass
 
@@ -210,6 +211,7 @@ while restart:
     print("\n \n")
     print_snapshot(distance_traveled)
     print("\n_______________________")
+    print(distance_traveled)
     print('you chose car {}' .format(user_car))
     time.sleep(1)
     print("the winner is car {}" .format(place_1st))
