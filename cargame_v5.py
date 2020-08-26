@@ -1,4 +1,4 @@
-'''
+"""
 Create a car racer game:
 - where the user will choose their car number (from 1 - 12)
 - where the user will choose the race distance (from 5 -15)
@@ -17,7 +17,7 @@ Version information:
     - the user keeps the race distance and the car number from their original selection
 - this version also has a function called start
     - it asks the user if they want to start the race
-'''
+"""
 import random
 import time
 import sys
@@ -60,12 +60,14 @@ def carcheck (question, min, max):
             print("oi!\npeasant, do what you are told and enter a valid car number\nbetween", min, "and", max, "\n")
             time.sleep(2)
 #run function - call
-carcheck("Choose a car number (between {} - {}) ".format(MIN_CARS, MAX_CARS), MIN_CARS , MAX_CARS)
+carcheck("Choose a car number (between {} - {}) ".format(MIN_CARS, MAX_CARS), MIN_CARS, MAX_CARS)
 
 
 print("\n_______________________")
 
 #----- user choice - race distance -----
+
+
 def discheck (question, min, max):
     #def = define
     # intcheck is the name of my fucntion in python
@@ -109,21 +111,21 @@ while restart:
         while not valid:
             yes_no = (input(question))
             if yes_no == "yes":
-                    print('Ok, lets start')
-                    time.sleep(2.5)
-                    # I am happy with the loop
-                    break
+                print('Ok, lets start')
+                time.sleep(2.5)
+                # I am happy with the loop
+                break
             else: #the number is out of bounds
-                    print("Please enter 'yes' when you want to start, peasant")
-                    time.sleep(1)
-                    continue
+                print("Please enter 'yes' when you want to start, peasant")
+                time.sleep(1)
+                continue
     start_race("Are you ready to start the race? ")
 
     print("\n_______________________")
 
     #----- START RACE -----
-    cars = [1,2,3,4,5,6,7,8,9,10,11,12]
-    distance_traveled = [0,0,0,0,0,0,0,0,0,0,0,0]
+    cars = [1, 2, 3 , 4, 5, 6, 7, 8, 9, 10, 11, 12]
+    distance_traveled = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     #keep track of distances travled
 
