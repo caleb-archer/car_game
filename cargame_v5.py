@@ -39,9 +39,9 @@ print("\n_______________________")
 #----- user choice - car number -----
 def carcheck (question, min, max):
     #def = define
-    # intcheck is the name of my fucntion in python
+    # carcheck is the name of my fucntion in python
     # question - will be the question asked to the user
-    # low and high boundaries will be set up by the progarmmer
+    # min and max boundaries will be set up by the programmer at the start of the game
     valid = False
     while not valid:
         try: #try to convet input to interger
@@ -69,10 +69,6 @@ print("\n_______________________")
 
 
 def discheck (question, min, max):
-    #def = define
-    # intcheck is the name of my fucntion in python
-    # question - will be the question asked to the user
-    # low and high boundaries will be set up by the progarmmer
     valid = False
     while not valid:
         try: #try to convet input to interger
@@ -92,7 +88,7 @@ def discheck (question, min, max):
             time.sleep(2)
 #run function - call
 discheck("Choose a race distance(between {} - {}) ".format(MIN_DIS, MAX_DIS), MIN_DIS, MAX_DIS)
-#race_distance: int=(int(discheck()))
+
 
 
 #---- option for player to restart [loop] -----
@@ -103,10 +99,6 @@ while restart:
 
     #----- user choice - is the user ready to start the race? -----
     def start_race (question):
-        #def = define
-        # levelcheck is the name of my fucntion in python
-        # question - will be the question asked to the user
-        # low and high boundaries will be set up by the progarmmer
         valid = False
         while not valid:
             yes_no = (input(question))
