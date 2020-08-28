@@ -149,7 +149,7 @@ while restart:
     def print_snapshot(mylist):
         counter=1
         for car_distance in mylist:
-            print('car {} has moved \n'.format(counter)+""*car_distance)
+            print('car {} has moved \n'.format(counter)+"*"*car_distance)
             counter+= 1
         #pass
 
@@ -205,7 +205,6 @@ while restart:
     print("\n \n")
     print_snapshot(distance_traveled)
     print("\n_______________________")
-    print(distance_traveled)
     print('you chose car {}' .format(user_car))
     time.sleep(1)
     print("the winner is car {}" .format(place_1st))

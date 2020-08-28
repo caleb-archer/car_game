@@ -72,7 +72,7 @@ def discheck (question, min, max):
                 continue
         except ValueError:
             print("oi!\npeasant, do what you are told and enter a valid race distance\nbetween 5 and 15")
-        return race_distance
+        #return race_distance
 #run function - call
 discheck("Choose a race distance... (5-15)? ", 5 , 15)
 #race_distance: int=(int(discheck()))
