@@ -135,4 +135,3 @@ print_snapshot(distance_traveled)
 print("\n_______________________")
 print("the winner is car {}" .format(place_1st))
 
-

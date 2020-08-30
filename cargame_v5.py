@@ -30,7 +30,6 @@ MIN_DIS = 5
 MAX_DIS = 15
 
 
-
 #----- INTRODUCTION -----
 print("kia ora\nwelcome to my car game! :) peasant")
 print("\n_______________________")
