@@ -18,7 +18,6 @@ import random
 import time
 import sys
 
-
 MAX_CARS = 12
 MIN_CARS = 1
 
